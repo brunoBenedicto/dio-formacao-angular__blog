@@ -14,7 +14,7 @@
   width: 30%;
   margin-right: 20px;
 }
-.small-card__imagem >img{
+.small-card__imagem >a >img{
  width: 100%;
 }
 

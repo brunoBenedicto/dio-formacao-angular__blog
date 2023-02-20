@@ -1,13 +1,13 @@
 <div class="container__big-card">
   <div class="big-card__imagem">
     <img
-      src="https://img.olhardigital.com.br/wp-content/uploads/2021/09/via-lactea-espiral-capa.jpg" alt=""
+      src="{{imagem}}" alt=""
       height="250px">
   </div>
   <div class="big-card__titulo">
-    <h1><a href=""> titulo do destaque</a></h1>
+    <h1><a [routerLink]="['conteudo', id]">{{titulo}}</a></h1>
   </div>
   <div class="big-card__descricao">
-    <p><a href=""> aqui vai a descrição do big-card aaaaaaa dsddddddd ert adg rtsfgs srtyyrhrty rtyy w rtywghsfdgaert ergtr wert</a> </p>
+    <p><a [routerLink]="['conteudo', id]"> {{descricao}}</a> </p>
   </div>
 </div>

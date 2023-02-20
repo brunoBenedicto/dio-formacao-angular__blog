@@ -1,10 +1,10 @@
 <div>
   <div class="container__small-card">
     <div class="small-card__imagem">
-      <img src="https://i.ytimg.com/vi/LA_UqH7IwOg/maxresdefault.jpg" alt="">
+      <a [routerLink]="['conteudo', id]"><img src="{{imagem}}" alt=""></a>
     </div>
     <div class="small-card__titulo">
-      <p>asdasd asdasdad assdasdasd asdasdasd asdasdasd assdasdasd assdasdasd </p>
+      <p>{{descricao}}</p>
     </div>
   </div>
   <hr class="separador">
