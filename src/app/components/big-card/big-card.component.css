@@ -1,0 +1,30 @@
+.container__big-card{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+
+.big-card__titulo > h1{
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.big-card__descricao > p> a{
+  color:silver;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.big-card__imagem > img{
+  width: 100%;
+  min-width: 400px;
+}
+a {
+  text-decoration: none;
+}
